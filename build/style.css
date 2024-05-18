@@ -1,0 +1,137 @@
+/* body{
+    font-family:'Courier New', Courier, monospace;
+    background-color:#FFFC9B ;
+}
+.container{
+    color:#000;
+    background-color: #fff;
+    display:flex;
+    justify-content: space-around;
+    font-size: 40px;
+} */
+.active {
+    color: white!important;
+    background-color: #CD113B; /* Your desired background color #3498db */
+    border-radius: 20px; /* Adjust the value to increase the roundness */
+  }
+  
+#logout {
+    display: none;
+}
+.card {
+    width: 18rem;
+    margin: 20px;
+    background-color: #E97777;
+    color: white;
+}
+/* #E97777 */
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.events, .workshops {
+    margin-top: 5%;
+    width: 260px;
+    height: 175px;
+}
+
+.stores {
+    margin: 5%;
+    width: 260px;
+    height: 250px;
+}
+
+/* LoginForm.css */
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif; /* Change the font-family as needed */
+    background-color: #F8F988;
+  }
+  
+  .login-container {
+    position: relative;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .login-form {
+     background-color:#CD113B;
+    padding: 40px; /* Increased padding for more width */
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 400px; /* Set the width as needed */
+  }
+  
+  .input-box {
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #2c3e50;
+    color: #fff;
+    padding: 8px 20px; /* Adjusted padding for button */
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .register-link {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #333;
+  }
+  
+  /* Add any additional styles as needed */
+
+  .bg-body-tertiary {
+     margin: 1%;
+     background-color: #F8F988!important;    
+  }
+
+#logout {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.admin {
+  display: none;
+}
+
+svg {
+  margin: 10px;
+}
+
+.active {
+  color: white!important;
+  background-color: #CD113B; /* Your desired background color #3498db */
+  border-radius: 20px; /* Adjust the value to increase the roundness */
+}
+
+.btn-primary, .btn-danger {
+  background-color: #CD113B;
+  border-color: #CD113B;
+  border-radius: 20px!important; 
+}
+
+.btn-primary:hover, .btn-danger:hover { 
+  background-color: #E97777;
+  border-color:indianred;
+}
